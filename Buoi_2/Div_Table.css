@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+.header{
+    height: 10vh;
+    margin: 1vh;
+    background-color: pink;
+    border: 2px solid #fff;
+}
+.container{
+    display: flex;
+    height: 76vh;
+    margin: 1vh;
+}
+
+.table{
+    width: 50%;
+}
+
+.box_top{
+    height: 36vh;
+    background-color: rgb(0, 170, 255);
+    margin-right: 1vh;
+    border: 2px solid #fff;
+}
+
+.box_bottom{
+    height: 40vh;
+    display: flex;
+}
+
+.box_a{
+    height: 19vh; 
+}
+
+.a1{
+    background-color: red;
+    margin: 1vh 0vh 1vh 0vh;
+    border: 2px solid #fff;
+}
+.a2{
+    background-color: brown;
+    border: 2px solid #fff;
+}
+.box_bottom_r{
+    background-color: rgb(193, 61, 193);
+    margin: 1vh;
+    height: 39vh;
+    border: 2px solid #fff;
+}
+
+.right_1{
+    height: 15vh;
+    display: flex;
+    margin-bottom: 1vh;
+}
+.box_75{
+    width: 70%;
+    background-color: rgb(118, 6, 118);
+    margin-right: 1vh;
+    border: 2px solid #fff;
+}
+
+.box_25{
+    width: 30%;
+    background-color: green;
+    border: 2px solid #fff;
+}
+.right_2{
+    height: 10vh;
+    background-color: yellow;
+    margin-bottom: 1vh;
+    border: 2px solid #fff;
+}
+
+.right_3{
+    display: flex;
+    height: 34vh;
+    margin-bottom: 1vh;
+}
+.box_b{
+    height: 34vh;
+    width: 33.33%;
+}
+.b1{
+    background-color: rgb(57, 57, 195);
+    margin-right: 1vh;
+    border: 2px solid #fff;
+}
+.b2{
+    background-color:red;
+    margin-right : 1vh;
+    border: 2px solid #fff;
+}
+.b3{
+    background-color:rgb(57, 57, 195);
+    border: 2px solid #fff;
+}
+.right_4{
+    height: 14vh;
+    background-color:rgb(185, 121, 121);
+    border: 2px solid #fff;
+}
+
+.footer{
+    background-color: black;
+    height: 10vh;
+    margin: 1vh;
+    border: 2px solid #fff;
+}
