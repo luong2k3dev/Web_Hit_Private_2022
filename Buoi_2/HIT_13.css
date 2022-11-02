@@ -8,9 +8,7 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    /* Giữa theo chiều ngang */
     justify-content: center;
-    /* Giữa theo chiều dọc */
 }
 .box{
     width: 50px;
