@@ -90,6 +90,17 @@ input {
     width: 100%;
     height: calc(100% - 70px);
     display: flex;
+    margin-top: 50px;
+}
+
+.content_left {
+    height: 100%;
+    width: 30%;
+}
+
+.content_right {
+    height: 100%;
+    width: 70%;
 }
 .content_l {
     display: flex;
@@ -114,6 +125,7 @@ input {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 .all {
@@ -121,14 +133,27 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 200px;
+    width: 100%;
     height: 40px;
     background-color: blue;
 }
 
 .content_menu {
-    height: calc(100% -70px);
-    width: 30%;
+    height: 100%;
+    width: 70%;
+    border: 1px solid blue;
+}
+
+.content_menu ul li{
+    margin-top: 35px;
+}
+
+.member_1 p {
+    text-align: center;
+}
+
+.member_1 h {
+    text-align: center;
 }
 
 
