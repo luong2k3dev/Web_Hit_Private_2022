@@ -70,6 +70,7 @@ input {
 }
 
 .card_icon {
+    margin-left: 5px;
     color: #fff;
 }
 
@@ -152,7 +153,7 @@ a {
     text-align: center;
 }
 
-.member_1 h {
+.member_1 h1 {
     text-align: center;
 }
 
