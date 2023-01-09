@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+    font-size: 14px;
+    color: #333;
+    background: rgb(176, 176, 208);
+    height: 300vh;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    height: 88px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.header_content {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header_content .content_l img {
+    margin: 5px;
+    height: 75px;
+}
+
+.header_content .content_c ul {
+    height: 88px;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+}
+
+.container_menu a {
+    width: 100%;
+    height: 88px;
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.header ul li {
+    padding: 34px 10px;
+    font-size: 14px;
+    /* cursor: pointer; */
+}
+
+.header_content .content_r {
+    height: 100%;
+}
+
+.header_content .container_phone {
+    display: flex;
+    height: 88px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_content .logo-phone {
+    margin-right: 10px;
+}
+
+.header_content .text-phone {
+    font-size: 16px;
+}
+
+.text-phone .text {
+    font-weight: 700;
+    color: #46C3FC;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.text-phone .phone a {
+    font-weight: 800;
+    color: #D91A5D;
+}
+
+.container_menu li:hover {
+    background-color: rgb(14, 195, 227);
+    text-decoration: underline;
+}
+
+.content_r .phone a:hover {
+    text-decoration: underline;
+}
