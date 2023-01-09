@@ -21,7 +21,7 @@ a {
 }
 
 .header {
-    height: 88px;
+    height: 100%;
     width: 100%;
     position: fixed;
     z-index: 1000;
@@ -52,17 +52,15 @@ a {
 }
 
 .container_menu a {
+    padding: 34px 10px;
+    font-size: 14px;
+    display: block;
+    text-align: center;
     width: 100%;
     height: 88px;
     color: #000;
     font-weight: 600;
     text-transform: uppercase;
-}
-
-.header ul li {
-    padding: 34px 10px;
-    font-size: 14px;
-    /* cursor: pointer; */
 }
 
 .header_content .content_r {
@@ -96,9 +94,10 @@ a {
     color: #D91A5D;
 }
 
-.container_menu li:hover {
+.container_menu li a:hover {
     background-color: rgb(14, 195, 227);
     text-decoration: underline;
+    color: #fff;
 }
 
 .content_r .phone a:hover {
